@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/imagens/logo.png" alt="logo" />
+      <div class="filtro">
+
+        <input
+          type="text"
+          placeholder="Buscar produtos..."
+          class="filtro-input"
+        />
+        <button class="filtro-btn">Buscar</button>
+
+        
+        <select class="categoria-dropdown">
+          <option value="">Selecionar Categoria</option>
+          <option value="faca">Faca</option>
+          <option value="vandal">Vandal</option>
+          <option value="operator">Operator</option>
+        </select>
+      </div>
+
+     
+        <a class="compras" href="carrinho.html"><img src="/imagens/carrinho.png" alt="carrinho"></a>
+      
+    </header>
+    <main>
+      <section class="vitrine">
+        <article class="card">
+          <img src="/imagens/kuronami.jpg" alt="Vandal" />
+          <div class="card-info">
+            <h2>Vandal</h2>
+            <p>R$ 100,00</p>
+            <a href="carrinho.html" class="btn">Comprar</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/imagens/operator.png" alt="Operator" />
+          <div class="card-info">
+            <h2>Operator</h2>
+            <p>R$ 150,00</p>
+            <a href="carrinho.html" class="btn">Comprar</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="imagens/faca.jpg" alt="Faca" />
+          <div class="card-info">
+            <h2>Faca</h2>
+            <p>R$ 200,00</p>
+            <a href="carrinho.html" class="btn">Comprar</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
